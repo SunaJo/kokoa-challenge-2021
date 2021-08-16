@@ -1,0 +1,42 @@
+html {
+  background-color: ivory;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+.package {
+  background-color: ivory;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+}
+.rectangle {
+  height: 300px;
+  width: 170px;
+  background-color: tomato;
+  border: 5px white;
+  border-style: solid;
+  margin: auto;
+}
+body div div:nth-child(3) {
+  background-color: teal;
+}
+body div div:nth-child(4) {
+  background-color: burlywood;
+}
+body div div:nth-child(5) {
+  background-color: thistle;
+}
+.white {
+  position: relative;
+  top: 10px;
+  height: 90px;
+  width: 170px;
+  background-color: white;
+}
